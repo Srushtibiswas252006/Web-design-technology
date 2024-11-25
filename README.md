@@ -239,3 +239,265 @@ This allows students to learn how to design and develop interconnected devices t
 </body>
 
 </html>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Flexbox</title>
+
+<style>
+
+body {
+
+font-family: Arial, Helvetica, sans-serif;
+
+font-size:20px;
+
+padding:0 20px 30px 0;
+
+line-height:1.4;
+
+}
+
+flex .flex-container{
+
+display: flex;
+
+flex-wrap:wrap;
+
+}
+
+.flex-item{
+
+width:75px;
+
+height:75px;
+
+background-color: lightskyblue;
+
+border: 2px solid darkblue;
+
+text-align:center;
+
+font-size: 2em;
+
+color:white;
+
+font-weight:bold;
+
+line-height:1.4;
+
+}
+
+#flex-item-1{background-color: lightpink;}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="flex-container">
+
+<div class="flex-item" id="flex-item-1">1</div>
+
+<div class="flex-item" id="flex-item-2">2</div>
+
+<div class="flex-item" id="flex-item-3">3</div>
+
+<div class="flex-item" id="flex-item-4">4</div>
+
+<div class="flex-item" id="flex-item-5">5</div>
+
+</div>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0>
+
+<title>Float Property</title>
+
+<style>
+
+body {margin:0 auto;
+
+max-width: 900px;
+
+width:90%;
+
+}
+
+#box[float:left;
+
+margin:15px;
+
+width:150px;
+
+height: 150px;
+
+border-radius:5px;
+
+background-color:blue;
+
+padding: 1em;
+
+}
+
+.special{background-color:red;
+
+padding: 15px;
+
+color:pink;
+
+}
+
+.cleared{clear: left
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Float Property</h>
+
+<img id="box" src="pic.jpeg" alt="pic">
+
+<h1 class="special">Resume</h1>
+
+<p>A resume opening statement is an important part of a job application, as it provides employers with the first impression of an applicant. A well-crafted statement can help an applicant
+
+stand out from the competition and increase their chances of being noticed and considered for a position.</p>
+
+<p>The primary benefit of a resume opening statement is that it allows applicants to quickly and efficiently summarize their career goals, qualifications and experiences. This summary
+
+should be concise yet powerful. It should capture the attention of employers and help them to understand why an applicant is an ideal fit for the job. In addition to summarizing qualifications, a resume opening statement can also be used to express the applicant's enthusiasm for the position and highlight any unique skills they possess.
+
+This helps employers to get a better sense of the applicant's personality and can help to spark their interest.</p>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body {
+
+background-color: lightpink;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+body {
+
+background-color: lightpink;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<p> Welcome to Government College of Engineering, Nagpur This Institute, commonly referred as GCOEN, was started functioning in 2016 with 5 UG & 1 PG Engineering Programmes under the administrative control of Higher and Technical Education, Govt. of Maharashtra. The Institute is affiliated to RTM Nagpur University Nagpur. Within a short span of time,<p> Welcome to Government College of Engineering, Nagpur This Institute, commonly referred as GCOEN, was started functioning in 2016 with 5 UG & 1 PG Engineering Programmes under the administrative control of Higher and Technical Education, Govt. of Maharashtra. The Institute is affiliated to RTM Nagpur University Nagpur. Within a short span of time, GCOEN has established its own identity not only in the Vidarbha region but also in the Maharashtra State. The students of high caliber are the backbones of the Institute.</p>
+
+</body>
+
+</html>
+Practical 6:
+<!DOCTYPE html>
+
+<head>
+
+<title>Practical no.6</title>
+
+<style>
+
+.main{background-color:pink;
+
+padding:50px;}
+
+.container (display:grid;
+
+grid-template-columns: repeat(4,1fr);
+
+grid-gap:20px;}
+
+.items{background-color:purple;
+
+border-radius:5px;
+
+border: 3px green solid;
+
+color:white;)
+
+</style>
+
+</head>
+
+<div class="container">
+
+<body>
+
+<div class="items"><img src="cake.jpeg">
+
+<p><h2>Type: JPEG</h2></p><p><h2>Size:8.14KB</h2></p></div>
+
+<div class="items"><img src="cake.avif">
+
+<p><h2>Type:AVIF</h2></p><p><h2>Size:5.93KB</h2></p></div>
+
+<div class="items"><img src="cake.webp">
+
+<p><h2>Type: WEBP</h2></p><p><h2>Size:5.67KB</h2></p></div>
+
+<div class="items"><img src="cake.jpg">
+
+<p><h2>Type: PNG</h2></p><p><h2>Size=10.3KB</h2></p></div>
+
+</div>
+
+<div class="main">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vvNMOcZLOak?si=gfREPKV10_tOEFGW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-
+
+write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+<audio controls>
+
+<source src="cc.mp3">
+
+</audio>
+
+</body>
+
+</html>
+Practical 5:
