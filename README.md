@@ -501,3 +501,250 @@ write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy
 
 </html>
 Practical 5:
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Page Title</title>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+
+}
+
+font-family: Arial, Helvetica, sans-serif;
+
+.header {
+
+}
+
+padding: 80px;
+
+text-align: center;
+
+background: #1abc9c;
+
+color: pink;
+
+font-family:verdana, genova, sans-serif;
+
+text-shadow: 4px 4px 4px 10px black;
+
+.header h1 {
+
+}
+
+font-size: 40px;
+
+text-shadow: 4px 4px 4px 10px black;
+
+.navbar {
+
+}
+
+overflow: hidden;
+
+background-color: white;
+
+.navbar a {
+
+}
+
+float: left;
+
+display: block;
+
+color:red;
+
+text-align: center;
+
+padding: 14px 20px;
+
+text-decoration: underline;
+
+.navbar a.right {
+
+float: right;
+
+}
+
+.navbar a:hover {
+
+background-color: #ddd;
+
+color: black;
+
+}
+
+* {
+
+box-sizing: border-box;
+
+}
+
+.row {
+
+}
+
+display: flex;
+
+flex-wrap: wrap;
+
+.side {
+
+flex: 30%;
+
+background-color: grey;font-decoration:underline;
+
+font-style: italic;
+
+text-align:center; text-transform:capitalze;
+
+color:violet;
+
+main {
+
+background-color: light pink;
+
+flex: 70%; font-align:center; letter spacing:0.1rem;
+
+padding: 20px;
+
+color:blue;
+
+@media screen and (max-width: 700px) {
+
+.row { }
+
+flex-direction: column;
+
+} @media screen and (max-width: 400px) {
+
+.navbar a {
+
+float: none;
+
+width: 100%;footer {
+
+padding: 20px; text-align: center; background: purple; color:white; text-shadow: 4px 4px 10px black; font-family:Arial, Helvetica, sans-serif;
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+<p><img src="cake.png"></p> <h1>Cake Couture</h1> <p>A website created by me.</p> <input type="text" placeholder-"search...">
+
+</div>
+
+<div class="navbar"> <a href="#">www.cake couture.com</a> <a href="#">www.yummy cakes.com</a>
+
+<a href="#">www.bakery.com</a> <a href="#" class="right">link</a>
+
+</div>
+
+<div class="row">
+
+<div class="side"><p>Cakes are baked from a batter. Batter is made by mixing wet ingredients (like milk and eggs) with dry ingredients (like sugar and flour). The batter is baked in an oven. This way of baking is known as the muffin method, because muffins are made this way.
+Vegan versions of the same cake abstain from using animal products such as dairy or eggs and instead substitute them with plant derived products such as nut milk and alginate-lecithin gel. [1]
+
+Just like bread, cakes rise in the oven because they contain many small air bubbles. As cakes rise, the air bubbles expand. This is why the cake batter expands in the pan (often to twice its original size). There are two ways of forming the air bubbles, which create different types of cakes. Almost every kind of cake belongs to one of these families.</p><p>A cake is a type of (usually) sweet dessert which is baked. Originally, it was a bread-like food, but no longer. Cakes are often made to celebrate special occasions like birthdays or weddings. There are many kinds of cakes. It can be baked in an oven. Some savory cakes are made on a griddle or a frying pan.</p></div> <div class="main"><p>A cake is a sweetened baked food, usually made with flour, eggs, sugar, and a leavening agent. Shortening may or may not be used. Shortening is a fat or oil of animal or vegetable origin, such as butter, lard, vegetable oils, processed shortenings, and margarine. Cake or pastry flours give lighter, finer grained, and more tender cakes than do stronger flours, which are used for breadmaking. Flavoring, such as vanilla, chocolate, or mint, is often added to cakes. Additional ingredients, such as nuts or fruits, add to the texture and taste. A cake is usually shaped by the tin in which it is baked.
+
+Bakers usually separate cakes into two basic types: those that have shortening and those that do not have shortening. Those with shortening are moist and velvety. For these cakes, bakers use a leavening agent such as baking powder or baking soda. Unshortened cakes are firm yet less dense than the ones with shortening. Sponge cake and angel food cake are examples of unshortened mixtures. These cakes depend largely upon incorporated air for leavening instead of chemical raising agents. The added air produces a light product.</p></div>
+
+</div>
+
+<div class="footer">
+
+<h2>A place where magic happens.</h2>
+
+<p>Thanks for suppporting us.</p>
+
+</div>
+
+</body>
+
+</html>
+Practical 1:
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>form</title>
+
+</head>
+
+<form>
+
+<h1><u>Registration form</u></h1><br>
+
+<b>Name:</b>*<input type="text" id="name" name="name" required><br>
+
+<b>Gender: </b><br>Male<input type="radio" name="Gender" id="male"> femalecinput type="radio" name "Gender" id="female"><br>
+
+<em>DoB:</em><input type="date"><br>
+
+<u>Address:</u><textarea name="Address" cols="40" rows="4"></textarea><br>
+
+<i>Email:</i><input type="email" name="email"><br>
+
+<b>Branch:</b><select><option>CSE</option><option>ETC</option><option>IT</option></select><br> type="checkbox" >2nd year<br>
+
+<u>College year:</u><br><input type="checkbox" >1st year<br><input type="checkbox <input type="checkbox" >3rd year<br><input type="checkbox" >4th year<br>
+
+skills you will be learning in this course:
+
+<ol>
+
+<li><i>web design</i></li>
+
+<li><i>Graphics design</i></li>
+
+<11><1>UI-UX</i></li>
+
+</ol><br>
+
+For more information about the course
+
+<a href="https://www.course.com/">Visit www.course.com</a><br>
+
+<hr><h1>Payment Details</h1><br>
+
+<b>Cardtype:</b><select name="Cardtype" id="cardtype">
+
+<option value="">Select a card type</option>
+
+<option value="Visa">Visa</option> <option value="Rupay " >Rupay</option>
+
+<option value="BHIM UPI">BHIM UPI</option></select><br>
+
+<u>Cardnumber:</u><input type="number" name="cardnumber" id="cardnumber"><br>
+
+<1>Expiration date:</i><input type="date" name="exp_date" id="exp_date"><br>
+
+<b>CW:</b><input type="password" name="CV" id="CW"><br>
+
+<input type="submit" value="Pay now">
+
+<input type="submit" value="submit">
+
+<input type="reset" value="reset">
+
+</form>
+
+</body>
+
+</html>
+Practical 3:
