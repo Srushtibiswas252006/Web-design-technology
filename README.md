@@ -1,5 +1,5 @@
 # Web-design-technology
-Practical 2:
+Practical 3:
 <!DOCTYPE html>
 
 <html lang="en">
@@ -747,4 +747,122 @@ For more information about the course
 </body>
 
 </html>
-Practical 3:
+Practical 2:
+<!DOCKTYPE html>
+
+<html>
+
+<head>
+
+<title>LAPTOP</title>
+
+<body>
+
+<h1>LAPTOP</h1><br>
+
+<img src=laptop.jpeg width="400" height="200" alt="laptop"><br>
+
+<iframe width="420" height="315"
+
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+
+</iframe><br>
+
+<video width="320" height="240" controls>
+
+<source src="movie.mp4" type="video/mp4">
+
+<source src="movie.ogg" type="video/ogg">
+
+</video>
+
+<table border="20" cellpadding="10">
+
+<thead>
+
+<tr>
+
+<th colspan="4">Best laptops to purchase</th>
+
+</tr>
+
+<tr>
+
+<th align="center">Laptop</th>
+
+<th align="center">RAM</th>
+
+<th align="center">Hard disk size</th>
+
+<th align="center">Price</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Lenovo Ideapad</td>
+
+<td>8GB</td>
+
+<td>512GB</td>
+
+<td>Rs.25,000</td>
+
+</tr>
+
+<tr>
+
+<td>HP Victus</td>
+
+<td>16GB</td>
+
+<td>512GB</td>
+
+<td>Rs.60,000</td>
+
+</tr>
+<td>
+
+</tr>
+
+<tr>
+
+<td>HP Elitebook</td>
+
+<td>16GB</td>
+
+<td>512GB</td>
+
+<td>Rs.100,000</td>
+
+</tr>
+
+<tr>
+
+<td>ASUS X515</td>
+
+<td>8GB</td>
+
+<td>512GB</td>
+
+<td>Rs.23,000</td>
+
+</tr>
+
+<tr>
+
+<th colspan="4">Get yourself a good one</th>
+
+</tbody>
+
+</table>
+
+</body>
+
+</head>
+
+</html>
